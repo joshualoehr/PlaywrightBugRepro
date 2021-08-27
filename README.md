@@ -35,6 +35,8 @@ Require stack:
 
 ## To Reproduce
 
+Requires Node 12+
+
 1. Clone this repo
 1. (if necessary) `npm i -g yarn`
 1. `yarn install`
