@@ -1,0 +1,14 @@
+{
+  "name": "playwright-bug-repro",
+  "version": "1.0.0",
+  "description": "Playwright bug repro",
+  "main": "index.js",
+  "author": "Josh Loehr",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.14.1"
+  }
+}
