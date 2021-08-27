@@ -1,5 +1,7 @@
 # Playwright Bug Repro
 
+https://github.com/microsoft/playwright/issues/8495
+
 This repo reproduces a bug introduced in @playwright/test 1.14. This version added a dependency on `jest-matchers-util` without specifying it in the `package.json`, which causes Yarn's PnP to throw the following error:
 
 ```
