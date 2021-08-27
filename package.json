@@ -6,6 +6,7 @@
   "author": "Josh Loehr",
   "license": "MIT",
   "scripts": {
+    "postinstall": "playwright install",
     "test": "playwright test"
   },
   "devDependencies": {
