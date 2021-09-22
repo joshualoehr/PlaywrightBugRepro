@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <!-- Works fine -->
+        <h1>Nested divs:</h1>
+        <div><div>| No space on the left</div></div>
+        <div style="margin-left: 20px"><div>| Only margin on the left</div></div>
+        <div style="padding-left: 20px"><div>| Only padding on the left</div></div>
+        <div style="margin-left: 20px; padding-left: 20px"><div>| Margin and padding on the left</div></div>
+
+        <hr style="margin-top: 20px"/>
+
+        <!-- Broken in webkit -->
+        <h1>Text nodes only:</h1>
         <div>| No space on the left</div>
         <div style="margin-left: 20px">| Only margin on the left</div>
         <div style="padding-left: 20px">| Only padding on the left</div>
