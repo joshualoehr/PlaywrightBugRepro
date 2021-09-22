@@ -1,5 +1,7 @@
 # Playwright Bug Repro
 
+https://github.com/microsoft/playwright/issues/9092
+
 This branch reproduces a bug introduced in an unknown Playwright version which causes the webkit browser on MacOS to ignore padding.
 
 **Chromium (correct):**
