@@ -6,10 +6,14 @@
   "author": "Josh Loehr",
   "license": "MIT",
   "scripts": {
+    "server": "node server/server.js",
     "postinstall": "playwright install",
-    "test": "playwright test"
+    "test": "playwright test --browser all"
   },
   "devDependencies": {
-    "@playwright/test": "^1.14.1"
+    "@playwright/test": "^1.15.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
