@@ -21,4 +21,5 @@ Requires Node 12+
 1. Clone this repo
 1. (if necessary) `npm i -g yarn`
 1. `yarn install`
+1. `yarn playwright install-deps && yarn playwright install`
 1. `yarn test`
